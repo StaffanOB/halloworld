@@ -1,6 +1,6 @@
 class HelloWorld {
     public static void main(String[] args) {
 		System.out.println("Hello, World!"); 
-		System.out.println("More worlds"); 
+		System.out.println("This is the development branch"); 
     }
 }
