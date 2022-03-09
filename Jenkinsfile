@@ -1,6 +1,8 @@
 pipeline {
     agent {
-        docker { image 'node:16.13.1-alpine' }
+        docker { 
+            label 'jenkins-agent'
+            image 'node:16.13.1-alpine' }
     }
     stages {
         stage('Build') { 
