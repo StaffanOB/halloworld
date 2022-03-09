@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker { 
             label 'jenkins-agent'
-            image 'node:16.13.1-alpine' }
+            image 'jenkins/agent:latest' }
     }
     stages {
         stage('Build') { 
